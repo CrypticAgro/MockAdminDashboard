@@ -7,6 +7,22 @@ body{
     margin: 0px;
 }
 
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
 .header{
     grid-column: 2;
     grid-row: 1;
@@ -64,6 +80,7 @@ body{
 .bottom-items{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-left: 30px;
 }
 
 .welcome-container{
@@ -109,8 +126,19 @@ body{
     background-color: #d63b3f;
     grid-column: 1;
     grid-row: 1 / 3;
+    display: grid;
+    grid-template-rows: 1fr 5fr 5fr;
+    padding-left: 10px;
 }
 
+
+.title{
+
+    font-family: 'Bungee Shade', cursive;
+    color: white;
+    font-size: 50px;
+    grid-row: 1;
+}
 .main-content{
     grid-column: 2;
     grid-row: 2;
